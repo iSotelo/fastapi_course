@@ -1,0 +1,7 @@
+Generic single-database configuration.
+
+Para generar la migración: 
+alembic revision --autogenerate -m "[Mensaje de la migracion]"
+
+Para actualizar la base de datos a la ultima migración:
+alembic upgrade heads

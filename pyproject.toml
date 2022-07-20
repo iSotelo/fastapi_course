@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "Fast API Udemy learning"
+version = "0.1.0"
+description = "Exercises for udemy course to Fast API"
+authors = ["José Isaías Sotelo Carrillo <isc.isotelo2013@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.78.0"
+uvicorn = "^0.18.2"
+psycopg2 = "^2.9.3"
+SQLAlchemy = "^1.4.39"
+python-dotenv = "^0.20.0"
+alembic = "^1.8.1"
+passlib = "^1.7.4"
+bcrypt = "^3.2.2"
+python-jose = "^3.3.0"
+python-multipart = "^0.0.5"
+pytest = "^7.1.2"
+requests = "^2.28.1"
+coverage = "^6.4.2"
